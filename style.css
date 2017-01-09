@@ -1,0 +1,108 @@
+   /*   
+Project: heroes and villans
+Author: christopher Kennedy
+
+
+/* Reset Browser Defaults*/
+
+* {
+  padding:0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+/*///////////////////BODY//////////*/
+body{
+max-width: 100%;
+ min-width: 80%;   
+	margin:0em;
+	padding-right:0em;
+    color: #ffffff;
+    line-height: 1.8em;
+background:
+url(wallpaper.jpg)
+fixed;}
+nav{
+    width: 100%;
+background-color: lightgrey;
+position: fixed;
+bottom: 36em;
+opacity: 0.9;
+z-index: 1;}
+
+nav ul 
+{text-align: center;
+padding: .4em;
+font-size: 1.1em;
+line-height: 2.1em;
+font-style: oblique;}
+
+nav ul li 
+{display: inline;
+margin: 20px;
+}
+
+article{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+	margin-left:8em;
+    margin-right: 8em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+   font-family: 'Open Sans', sans-serif;
+   font-weight:800; background:url(paper%20texture3.jpg)50%;
+	}
+.header, h2{font-family: 'Tangerine', cursive;font-size: 7em;
+position: relative;
+left: 2em;
+padding-top: 1em;
+color: #222120;}
+
+.quotetext{position: relative;
+left:2em;
+font-size: 1.3em;}
+
+blockquote{font-size: 1.8em;
+padding: 1em;
+line-height: 40px;}
+
+#holmes {position: static;}
+#watson{position: relative;
+left: 6em;}
+#moriarty{position: static;}
+#adler{position: relative;
+left: 5.7em;}
+#silver-screen{position: static;
+right: 1em;}
+
+.img1 {float: right;
+position: relative;
+bottom: 4em;
+padding: 2em;
+height: 20em;}
+
+.img2 {float:left;
+position: relative;
+bottom: 2em;
+padding: 2em;
+height: 20em;}
+
+.text1 p{line-height: 30px;
+font-family: 'Open Sans', sans-serif;
+padding: 1em;}
+
+.intro {font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+width: 100%;
+position: relative;
+padding-bottom: 1em;
+    padding-top: 1em;
+line-height: 40px;}
+
+p{font-family: 'Open Sans', sans-serif;
+color: #222120;}
+a{text-decoration:underline;
+color: #222120;}
+a:hover{color: whitesmoke;}
+footer {width: 60%;
+padding: 2em;}
